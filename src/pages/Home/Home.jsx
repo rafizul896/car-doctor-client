@@ -1,7 +1,17 @@
+import About from "./About";
+import Banner from "./Banner";
+import Servicrs from "./Servicrs";
+
 const Home = () => {
     return (
         <div>
-            This is Home
+            <Banner />
+            <div className="py-10">
+                <About />
+            </div>
+            <div>
+                <Servicrs />
+            </div>
         </div>
     );
 };
